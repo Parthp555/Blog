@@ -36,7 +36,7 @@
   		<li><a href="writeBlog.php?publish=0">WriteBlog</a></li>
   		<li><a href="viewBlog.php">MyBlogs</a></li>
 		<li><a href="networkBlog.php" title="View Blogs of your network">FollowERS/ING</a></li>
- 	    <li><a href="contactUs.php">Contact Us</a></li>
+ 	    <li><a href="contactUs.php">ContactUs</a></li>
  		<li><a href="logout.php">Logout</a></li>
 		</ul>
 		<br>
