@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Play', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    float: left;
+    position: fixed;
+}
+
+#upper_heading {
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 5vh;
+}
+
+#navigation {
+    margin: 0;
+    list-style-type: none;
+    float: right;
+}
+
+#navigation li {
+    padding: 7px 16px;
+    display: inline-block;
+
+}
+
+#navigation li a {
+    text-decoration: none;
+    color: #0077b3;
+}
+
+#title1 {
+    width: 100%;
+    background-color: #002233;
+    height: 10vh;
+}
+
+#title1 h1 {
+    margin: 0;
+    color: white;
+    padding: 1%;
+    padding-left: 5%;
+    float: left;
+}
+
+.color {
+    color: white;
+}
+
+.main {
+    padding-top: 6%;
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f1f1;
+    float: left;
+}
+
+#blog_title {
+    width: 100%;
+}
+
+#blog_title #title {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 4vh;
+    margin-top: 5%;
+    border-radius: 2px;
+    border: 1px solid #c2c2a3;
+    padding-left: 2%;
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+}
+
+#blog_main {
+    margin-top: 1%;
+}
+
+#blog_text {
+    display: block;
+    margin: auto;
+    width: 80%;
+    font-size: 18px;
+    padding-left: 2%;
+    padding-top: 1%;
+    font-family: 'Play', sans-serif;
+}
+
+#post,#update {
+    width: 5%;
+    margin-left: 8.8%;
+    margin-top: 2%;
+    background-color: #006600;
+    color: white;
+    height: 4vh;
+    border: 1px solid green;
+    border-radius: 2px;
+    font-size: 15px;
+    outline: 0;
+    font-family: 'Play', sans-serif;
+}
+
+#reset {
+    width: 5%;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color: #b30000;
+    color: white;
+    height: 4vh;
+    border: 1px solid red;
+    border-radius: 2px;
+    font-size: 15px;
+    outline: 0;
+    font-family: 'Play', sans-serif;
+}
+
+#post:hover,#update:hover {
+    background-color: #009933;
+    cursor: pointer;
+    box-shadow: 1px 10px 30px gray;
+}
+
+#reset:hover {
+    background-color: #ff3333;
+    cursor: pointer;
+    box-shadow: 1px 10px 30px gray;
+}
+
+#options {
+    width: 82%;
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#options button {
+    margin-right: 2%;
+    border: 0;
+    background-color: #f1f1f1;
+    outline: 0;
+}
+
+#options button:hover{
+    cursor: pointer;
+}
+
+#richtextfield {
+    display: block;
+    margin: auto;
+    width: 80%;
+    font-size: 18px;
+    padding-left: 2%;
+    padding-top: 1%;
+    border: 1px solid #c2c2a3;
+    background-color: white;
+    height: 50vh;
+}
+
+#dropdown_menu {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#dropdown_content a{
+    display: block;
+    text-decoration: none;
+    color: #0077b3;
+    padding: 8px 16px;
+}
+
+#dropdown_content {
+    display: none;
+    background-color: white;
+    padding: 0;
+    margin-top: 10%;
+    border-radius: 3px;
+    border: 1px solid #f1f1f1;
+}
+
+#dropdown_content a:hover {
+    background-color: #f1f1f1;
+}
+
+#dropdown {
+    padding: 8px 16px;
+}
+
+#dropdown:hover {
+    cursor: default;
+}
+
+#dropdown:hover #dropdown_content{
+    display: block;
+}
+
+.blogs_list {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#list {
+    width: 90%;
+    display: block;
+    margin: auto;
+    background-color: #f1f1f1;
+    height: 25vh;
+    border-radius: 5px;
+    margin-top: 3%;
+    box-shadow: 1px 1px 20px gray;
+}
+
+#list h3 {
+    margin: 0;
+    padding-left: 5%;
+    padding-top: 2%;
+    width: 95%;
+    float: left;
+    //background-color: red;
+}
+
+#timings{
+    margin: 0;
+    margin-left: 5%;
+    padding-top: 7%;
+    width: 35%;
+    float: left;
+}
+
+#list input {
+    color: #002233;
+
+}
+
+#likes {
+    width: 40%;
+    float: left;
+    margin-top: 5%;
+}
+
+#likes h4 {
+    display: inline-block;
+    padding-top: 0.4%;
+    padding-left: 7%;
+}
+
+#list:hover {
+    box-shadow: 1px -5px 40px #002233;
+}
+
+#submit1 {
+    width: 10%;
+    float: left;
+    margin-top: 6.5%;
+    margin-left: 5%;
+    height: 4vh;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #002233;
+    color: white;
+    text-transform: uppercase;
+}
+
+#submit1:hover {
+    cursor: pointer;
+}

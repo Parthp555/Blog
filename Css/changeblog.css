@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Play', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+}
+
+#upper_heading {
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 5vh;
+}
+
+#navigation {
+    margin: 0;
+    list-style-type: none;
+    float: right;
+}
+
+#navigation li {
+    padding: 7px 16px;
+    display: inline-block;
+
+}
+
+#navigation li a {
+    text-decoration: none;
+    color: #0077b3;
+}
+
+#title {
+    width: 100%;
+    background-color: #002233;
+    height: 10vh;
+}
+
+#title h2 {
+    margin: 0;
+    color: white;
+    padding: 1%;
+    padding-left: 5%;
+    padding-top: 1.5%;
+    float: left;
+}
+
+.main {
+    width: 90%;
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 2%;
+}
+
+.update {
+    display: block;
+    margin: auto;
+    width: 90%;
+    margin-top: 2%;
+}
+
+.update button {
+    width: 8%;
+    margin-left: 0%;
+    margin-top: 2%;
+    background-color: #006600;
+    color: white;
+    height: 4vh;
+    border: 1px solid green;
+    border-radius: 2px;
+    font-size: 15px;
+    outline: 0;
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+}
+
+.update button:hover {
+    background-color: #009933;
+    cursor: pointer;
+    box-shadow: 1px 10px 30px gray;
+}
